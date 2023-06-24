@@ -1,0 +1,153 @@
+body{
+    background: rgb(3,0,40);
+    background: linear-gradient(90deg, rgb(9, 0, 104) 0%, rgb(38, 0, 206) 29%, rgba(99,92,204,1) 50%, rgb(211, 99, 255) 66%, rgb(95, 194, 255) 96%);
+}
+
+main{
+    padding-top: 20px;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar{
+    background: rgb(232,232,232);
+    background: linear-gradient(90deg, rgba(232,232,232,1) 0%, rgba(245,253,255,1) 100%);
+    border-bottom: 3px solid rgb(207, 207, 207);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.nav-link{
+    color: rgb(160, 160, 160);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color: #00aff5;
+}
+
+.profile{
+    border-radius: 50px;
+}
+.active{
+    color:#000000;
+}
+.active:hover{
+    color: #79c9ee;
+}
+.hero-tittle{
+    color: #53ceff;
+    font-size: 60px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+p {
+    color: white;
+}
+
+.p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 0px 60px 15vw 60px;
+    color: rgba(255, 255, 255, 0.76);
+
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-end{
+    width: 100%;
+}
+
+.hero{
+    
+    animation-name: teste;
+    animation-duration: 2s;
+}  
+@keyframes teste{
+    0% {opacity: 0; bottom: 100px;}
+    100% {opacity: 1; bottom: 0px;}
+}
+.paragraf-tittle{
+    color: #d3f1ff;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.minhas-skills{
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 10vw;
+}
+.card{
+    width: min-content; 
+    margin-left: 60px; 
+    margin-bottom: 40px;
+    background-color: rgba(19, 16, 36, 0);
+    border-color: #ff5277;
+}
+.card-title{
+    color: rgb(255, 255, 255);
+}
+.strong1{
+    text-decoration: line-through #a200ff2f 20px ;
+}
+.italico1{
+    font-style: italic;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.404);
+}
+.texticon{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.achorlink1{
+    text-decoration-line: none;
+    color: #cbf0f0;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.10;
+    filter: saturate(0);
+}
+
+.esportes-img {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 250px;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+.col-sm-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locais {
+    width: 100%;
+}
