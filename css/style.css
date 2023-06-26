@@ -85,7 +85,7 @@ footer {
 .paragraf-tittle{
     color: #d3f1ff;
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 40px;
 }
 .minhas-skills{
     margin-left: 60px;
@@ -150,4 +150,16 @@ footer {
 
 .locais {
     width: 100%;
+}
+
+@media(max-width: 498px) {
+    .image {
+        max-width: 350px;
+    }
+}
+
+h2 {
+    color:#d3f1ff;
+    display: flex;
+    justify-content: center;
 }
